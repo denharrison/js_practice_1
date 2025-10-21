@@ -1,7 +1,7 @@
 const correctPassword = "1234" 
 let userPassword = prompt("Введите пожалуйста пароль")
 
-for (let i = 0; i !== 3; i++) {
+for (let i = 1; i !== 3; i++) {
 
   if (userPassword === correctPassword) {
     alert("Доступ разрешён");
